@@ -2,16 +2,16 @@
 var express = require('express'),
   app = express();
 
-// // a "GET" request to "/" will run the function below
-// app.get("/", function (request, response) {
-//   // send back the response: 'Hello World'
-//   response.send("Hello World");
-// });
+// a "GET" request to "/" will run the function below
+app.get("/", function (request, response) {
+  // send back the response: 'Hello World'
+  response.send("Hello World");
+});
 
-// // start the server
-// app.listen(3000, function () {
-//   console.log("Starting a server on localhost:3000");
-// });
+// start the server
+app.listen(3000, function () {
+  console.log("Starting a server on localhost:3000");
+});
 
 var vegetables = [
   "Carrots",
@@ -47,10 +47,6 @@ app.get('/', function(req, res){
   // use res.render
   res.render('index', {name: "Elie"});
 });
-
-
-
-
 
 
 
