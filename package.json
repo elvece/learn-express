@@ -15,5 +15,9 @@
   "bugs": {
     "url": "https://github.com/elvece/learn-express/issues"
   },
-  "homepage": "https://github.com/elvece/learn-express#readme"
+  "homepage": "https://github.com/elvece/learn-express#readme",
+  "dependencies": {
+    "ejs": "^2.3.3",
+    "express": "^4.13.3"
+  }
 }
